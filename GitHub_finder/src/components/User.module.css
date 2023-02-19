@@ -1,0 +1,64 @@
+.user{
+    background: var(--blue);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.user img{
+    width: 140px;
+    height: 140px;
+    border: 4px solid var(--blue-100);
+    border-radius: 50%;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.location svg{
+    font-size: 1.3rem;
+    fill: var(--yellow);
+}
+
+.location span{
+    font-weight: bold;
+    color: var(--gray-400);
+}
+
+.stats{
+    display: flex;
+}
+
+.stats div{
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.stats div:first-child{
+    border-right: 1px solid var(--gray-200);
+}
+
+.netWorking{
+    background: var(--yellow);
+    padding: .2rem .4rem;
+    border-radius: 3px;
+    color: black;
+    font-weight: 400;
+}
+
+.bestProjects{
+    text-align: center;
+    background: #610390;
+    padding: 1rem;
+    border-radius: 5px;
+    color: var(--white-200);
+}

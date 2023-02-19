@@ -1,0 +1,32 @@
+:root{
+  --white-200:#cec;
+  --blue-100:#644aff;
+  --blue-500:#2b3566;
+  --yellow:rgb(216, 223, 15);
+  --purple-600:#300645;
+  --gray-100:rgb(129, 129, 129);
+  --gray-200:#9da5d1;
+  --gray-400:#979696;
+  --black-light:#0e1129;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+}
+
+body{
+  background: #0e1129;
+  padding: 2rem;
+}
+
+p{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
